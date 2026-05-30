@@ -28,6 +28,8 @@ modules:
         - fd-find
         - ripgrep
         - bat
+        - pinentry-rofi
+        - neovim
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
