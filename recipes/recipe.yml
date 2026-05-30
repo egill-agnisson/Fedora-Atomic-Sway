@@ -20,6 +20,7 @@ modules:
   - type: dnf
     install:
       packages:
+        - fastfetch
         - zsh
         - zoxide
         - fzf
