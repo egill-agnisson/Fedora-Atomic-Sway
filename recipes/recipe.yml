@@ -30,6 +30,10 @@ modules:
         - bat
         - neovim
         - steam-devices
+        - sane-backends
+        - sane-backends-drivers
+        - scanners-detect
+        - sane-airscan
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
