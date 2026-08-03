@@ -30,6 +30,8 @@ modules:
         - bat
         - neovim
         - steam-devices
+        - libvirt
+        - qemu
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -46,6 +48,7 @@ modules:
           - com.google.Chrome
           - com.valvesoftware.Steam
           - com.github.tchx84.Flatseal
+          - org.virt_manager.virt-manager
       - scope: user # Also add Flathub user repo, but no user packages
   
   - type: fonts
