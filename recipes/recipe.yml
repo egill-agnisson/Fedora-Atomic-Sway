@@ -32,6 +32,7 @@ modules:
         - steam-devices
         - libvirt
         - qemu
+        - podman-compose
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
