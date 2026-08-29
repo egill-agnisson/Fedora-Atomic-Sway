@@ -33,6 +33,7 @@ modules:
         - libvirt
         - qemu
         - podman-compose
+        - distrobox
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
