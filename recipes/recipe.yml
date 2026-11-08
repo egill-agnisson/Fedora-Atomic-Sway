@@ -52,9 +52,14 @@ modules:
           - com.github.tchx84.Flatseal
           - org.virt_manager.virt-manager
           - com.calibre_ebook.calibre
-          - com.nvidia.geforcenow
           - com.discordapp.Discord
       - scope: user # Also add Flathub user repo, but no user packages
+      - repo:
+          name: GeForceNOW
+          title: GeForceNOW
+          url: https://international.download.nvidia.com/GFNLinux/flatpak/geforcenow.flatpakrepo
+        install:
+          - com.nvidia.geforcenow
   
   - type: fonts
     fonts:
